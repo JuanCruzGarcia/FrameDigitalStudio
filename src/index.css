@@ -9,6 +9,7 @@
   /* Adjust as needed */
 
   --font-sans: "Space Grotesk", "Inter", sans-serif;
+  --font-museo: "MuseoModerno", sans-serif;
 }
 
 @layer base {

@@ -40,13 +40,13 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
-          className="text-2xl font-bold tracking-tighter text-white"
+          className="text-2xl font-bold tracking-tighter text-white font-museo"
           onClick={(e) => {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
         >
-          FRAME <span className="text-white/50">DIGITAL STUDIO</span>
+          FRAME <span className="text-cyan-400 font-museo font-normal">DIGITAL STUDIO</span>
         </a>
 
         {/* Desktop Menu */}

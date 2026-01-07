@@ -1,23 +1,23 @@
 import React from 'react';
-import { Code, Cpu, Activity } from 'lucide-react';
+import { Code, Globe, Workflow } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Services = () => {
     const services = [
         {
             icon: <Code className="w-8 h-8" />,
-            title: "Desarrollo Web & Sistemas",
-            description: "Plataformas web, sistemas internos y soluciones a medida."
+            title: "Sistemas Web a Medida",
+            description: "Construcción de plataformas robustas y personalizadas para centralizar, gestionar y optimizar la operatividad empresarial."
         },
         {
-            icon: <Cpu className="w-8 h-8" />,
-            title: "Automatización & Procesos",
-            description: "Digitalización y optimización de procesos operativos."
+            icon: <Globe className="w-8 h-8" />,
+            title: "Infraestructura Digital Corporativa",
+            description: "Desarrollo de portales institucionales diseñados con arquitecturas escalables que garantizan presencia, rendimiento y seguridad."
         },
         {
-            icon: <Activity className="w-8 h-8" />,
-            title: "Mantenimiento & Evolución",
-            description: "Soporte, mejoras y crecimiento continuo de productos digitales."
+            icon: <Workflow className="w-8 h-8" />,
+            title: "Sistematización de Procesos",
+            description: "Integración de herramientas tecnológicas para automatizar flujos de trabajo y reducir la fricción operativa."
         }
     ];
 

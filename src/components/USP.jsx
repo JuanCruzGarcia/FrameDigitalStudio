@@ -1,27 +1,37 @@
 import React from 'react';
-import { ShieldCheck, Layers, MessageSquare, TrendingUp } from 'lucide-react';
+import { ShieldCheck, Layers, TrendingUp, Code2, Cpu, Briefcase } from 'lucide-react';
 
 const USP = () => {
     const points = [
         {
             icon: <Layers className="w-6 h-6" />,
-            title: "Enfoque en estructura",
-            desc: "Priorizamos una arquitectura sólida y procesos claros."
+            title: "Arquitectura Escalable",
+            desc: "Diseñamos estructuras digitales robustas para garantizar estabilidad y rendimiento sostenido."
         },
         {
             icon: <Code2 className="w-6 h-6" />,
-            title: "Soluciones a medida",
-            desc: "No usamos plantillas. Creamos software adaptado a tu necesidad."
+            title: "Soluciones a Medida",
+            desc: "Desarrollamos sistemas personalizados enfocados en resolver problemáticas específicas del negocio."
         },
         {
-            icon: <MessageSquare className="w-6 h-6" />,
-            title: "Comunicación directa",
-            desc: "Sin intermediarios innecesarios. Hablás con quien entiende tu proyecto."
+            icon: <ShieldCheck className="w-6 h-6" />,
+            title: "Control de Procesos",
+            desc: "Implementamos metodologías rigurosas que aseguran transparencia y previsibilidad en la ejecución."
+        },
+        {
+            icon: <Cpu className="w-6 h-6" />,
+            title: "Integración de Sistemas",
+            desc: "Unificamos plataformas dispersas para centralizar datos y optimizar la operatividad."
+        },
+        {
+            icon: <Briefcase className="w-6 h-6" />,
+            title: "Consultoría Técnica",
+            desc: "Aportamos criterio experto para fundamentar decisiones de inversión tecnológica."
         },
         {
             icon: <TrendingUp className="w-6 h-6" />,
-            title: "Crecimiento conjunto",
-            desc: "Buscamos relaciones a largo plazo para acompañar tu evolución."
+            title: "Respaldo Continuo",
+            desc: "Acompañamos la evolución tecnológica de la empresa mediante una visión estratégica a largo plazo."
         }
     ];
 
@@ -33,7 +43,7 @@ const USP = () => {
                     <div className="w-20 h-1 bg-white/20"></div>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {points.map((point, index) => (
                         <div key={index} className="group p-6 border border-white/10 hover:border-white/30 transition-all bg-white/2 hover:bg-white/5">
                             <div className="mb-4 p-3 bg-white/5 rounded-lg w-fit group-hover:bg-white/10 transition-colors text-white">
@@ -51,5 +61,4 @@ const USP = () => {
     );
 };
 
-import { Code2 } from 'lucide-react';
 export default USP;

@@ -17,12 +17,13 @@ const CTA = () => {
                 </p>
 
                 <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-                    <p
+                    <a
+                        href="mailto:info@framedigital.studio"
                         className="inline-flex items-center gap-2 px-8 py-4 bg-white text-black font-bold text-lg rounded-full hover:bg-gray-200 transition-all hover:scale-105 active:scale-95"
                     >
                         <Mail className="w-5 h-5" />
                         Contactanos
-                    </p>
+                    </a>
                 </div>
             </div>
         </section>

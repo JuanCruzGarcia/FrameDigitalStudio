@@ -19,7 +19,7 @@ const Footer = () => {
                         <a href="#" className="text-white/60 hover:text-white transition-colors">
                             <Linkedin className="w-5 h-5" />
                         </a>
-                        <a href="mailto:contacto@frame.studio" className="text-white/60 hover:text-white transition-colors">
+                        <a href="mailto:info@framedigital.studio" className="text-white/60 hover:text-white transition-colors">
                             <Mail className="w-5 h-5" />
                         </a>
                     </div>

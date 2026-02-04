@@ -32,7 +32,7 @@ const Hero = () => {
                     >
                         We build <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/60">
-                            digital structure
+                            digital structures
                         </span>
                     </motion.h1>
 
